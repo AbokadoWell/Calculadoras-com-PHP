@@ -1,0 +1,68 @@
+body{
+    background-color: #847bc8;
+    color: #f3e2ff;
+}
+h1{
+    color: #f3e2ff;
+    text-shadow: 2px 2px 5px #733abd;
+    text-align: center;
+}
+button{cursor: pointer;}
+button, input{
+    color: #f3e2ff;
+    background-color: #946cc8;
+    border: 1px solid #f3e2ff;
+    transition-duration: 0.3s;
+}
+button:hover, input:hover{
+    color: #946cc8;
+    background-color: #f3e2ff;
+    border: 1px solid #946cc8;
+    transition-duration: 0.3s;
+}
+label{
+    text-shadow: 2px 2px 5px #733abd;
+}
+a:link{
+    color: #f3e2ff;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px #733abd;
+    transition-duration: 0.3s;
+}
+a:hover{
+    text-shadow: 2px 2px 5px #300b61;
+    font-size: 105%;
+    transition-duration: 0.3s;
+}
+a:active{
+    color: #f3e2ff;
+    text-shadow: 2px 2px 5px #9500ff;
+}
+a:visited{
+    color: #f3e2ff;
+    text-shadow: 2px 2px 5px #733abd;
+}
+select{
+    color: #f3e2ff;
+    background-color: #946cc8;
+    border: 1px solid #f3e2ff;
+    transition-duration: 0.3s;
+}
+option{
+    color: #946cc8;
+    background-color: #f3e2ff;
+    border: 1px solid #946cc8;
+    transition-duration: 0.3s;
+}
+option:checked{
+    color: #f3e2ff;
+    background-color: #946cc8;
+    border: 1px solid #f3e2ff;
+    transition-duration: 0.3s;
+}
+input[type="checkbox"]{
+    cursor: pointer;
+}
+input[type="radio"]{
+    cursor: pointer;
+}
